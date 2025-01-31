@@ -34,9 +34,9 @@
     <artifactId>maptowny-squaremap</artifactId>
 
     <properties>
-        <maven.compiler.source>16</maven.compiler.source>
-        <maven.compiler.target>16</maven.compiler.target>
-        <jdk.version>16</jdk.version>
+        <maven.compiler.source>1.8</maven.compiler.source>
+        <maven.compiler.target>1.8</maven.compiler.target>
+        <jdk.version>1.8</jdk.version>
     </properties>
 
     <dependencies>
@@ -49,7 +49,7 @@
         <dependency>
             <groupId>xyz.jpenilla</groupId>
             <artifactId>squaremap-api</artifactId>
-            <version>1.2.0</version>
+            <version>1.2.1</version>
             <scope>provided</scope>
             <exclusions>
                 <exclusion>
